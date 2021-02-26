@@ -11,7 +11,7 @@ do
 		git clone https://github.com/fsvk74/apktoolmirror
 		mv apktoolmirror/apktool_2.5.0.jar apktool.jar
 		mv apktool.jar Addon/apktool.jar
-		rm -rf apktoolrepomirror
+		rm -rf apktoolmirror
 	;;
 	"ApkRepo")
 		git clone https://github.com/fsvk74/apkrepomirror
