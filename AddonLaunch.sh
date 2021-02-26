@@ -8,7 +8,7 @@ select opt in "${options[@]}"
 do
     case $opt in
         "ApkTool (Need Java)")
-         java -jar Addon/apktool.jar
+         java -jar EMUI/Addon/apktool.jar
          echo "Launch this file through terminal manually to use it correctly!"
 	;;
 	"ApkRepo")
